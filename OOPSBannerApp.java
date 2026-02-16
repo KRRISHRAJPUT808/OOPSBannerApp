@@ -1,18 +1,32 @@
-
 public class OOPSBannerApp {
 
-    
     public static void main(String[] args) {
 
-        // Print OOPS in banner style (7 lines)
+        // Line 1
+        String line1 = String.join(" ",
+                "*", "*", "*", "*", "*", "*", "*", "*", "*", "*");
 
-        System.out.println(" *****   *****   *****   ***** ");
-        System.out.println("*     * *     * *     * *      ");
-        System.out.println("*     * *     * *     *  *    ");
-        System.out.println("*     * *     * * ****    **** ");
-        System.out.println("*     * *     * *      *     *");
-        System.out.println("*     * *     * *      *     *");
-        System.out.println(" *****   *****          ****** ");
+        // Line 2
+        String line2 = String.join(" ",
+                "*", " ", " ", " ", " ", " ", " ", " ", " ", "*");
 
+        // Line 3
+        String line3 = String.join(" ",
+                "*", " ", "O", "O", "P", "P", "S", "S", " ", "*");
+
+        // Line 4
+        String line4 = String.join(" ",
+                "*", " ", " ", " ", " ", " ", " ", " ", " ", "*");
+
+        // Line 5
+        String line5 = String.join(" ",
+                "*", "*", "*", "*", "*", "*", "*", "*", "*", "*");
+
+        // Print Banner
+        System.out.println(line1);
+        System.out.println(line2);
+        System.out.println(line3);
+        System.out.println(line4);
+        System.out.println(line5);
     }
 }
