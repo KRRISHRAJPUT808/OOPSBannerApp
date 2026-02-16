@@ -1,7 +1,18 @@
+
 public class OOPSBannerApp {
+
+    
     public static void main(String[] args) {
 
-        System.out.println("OOPS");
+        // Print OOPS in banner style (7 lines)
+
+        System.out.println(" *****   *****   *****   ***** ");
+        System.out.println("*     * *     * *     * *      ");
+        System.out.println("*     * *     * *     *  *    ");
+        System.out.println("*     * *     * * ****    **** ");
+        System.out.println("*     * *     * *      *     *");
+        System.out.println("*     * *     * *      *     *");
+        System.out.println(" *****   *****          ****** ");
 
     }
 }
